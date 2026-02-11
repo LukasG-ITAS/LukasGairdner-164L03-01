@@ -25,10 +25,12 @@ if __name__ == "__main__":
     print(f"5 + 3 = {add(5, 3)}")
     print(f"10 - 4 = {subtract(10, 4)}")
 
+# Multiply
 def multiply(a, b):
     """Return the product of two numbers."""
-    return a * b
+    return a * b 
 
+<<<<<<< HEAD
 def divide(a, b):
     """Return the quotient of two numbers."""
     if b == 0:
@@ -38,3 +40,7 @@ def divide(a, b):
 # More tests
 print(f"20 / 4 = {divide(20, 4)}")
 print(f"10 / 0 = {divide(10, 0)}")
+=======
+if __name__ == "__main__":
+    print(f"6 * 7 = {multiply(6, 7)}")
+>>>>>>> be7e4637d3716728b4219dbe6fc89859b45a1529
